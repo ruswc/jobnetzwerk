@@ -1,0 +1,80 @@
+@import "../mixins";
+@import "../vars";
+
+.profile-header,
+.guide-header {
+  @include flex(row, space-between, center);
+
+  //margin-top: 70px;
+  margin-top: 4rem;
+  color: $textColorFifth;
+
+  & .container-fluid {
+    background-color: $thirdColor;
+    @include flex(row, flex-start, center);
+    height: 40px;
+
+    & .img-container {
+      position: relative;
+
+      & img {
+        //height: 60px;
+        height: 3.75rem;
+        position: absolute;
+        //top: -50px;
+        top: -3rem;
+      }
+    }
+  }
+
+  & h6 {
+    //margin-left: 70px;
+    margin-left: 4.375rem;
+  }
+
+  & .properties, & .info {
+    @include flex(row, center, center);
+
+    background-color: $thirdColor;
+
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    flex-shrink: 0;
+
+    & img {
+      max-width: 16px;
+      max-height: 16px;
+    }
+  }
+
+}
+
+.guide-header {
+  & .container-fluid {
+    background-color: $guideHeaderBackgroundColor;
+  }
+  & .info {
+    background-color: $guideHeaderBackgroundColor;
+  }
+}
+
+.profile-body {
+  background-color: $profileSecondBackground;
+  border: 1px solid $profileSecondBlockBorderColor;
+
+  & .icon {
+    max-height: 30px;
+    max-width: 30px;
+    min-width: 20px;
+  }
+
+  & h5 {
+    color: $profileHeaderTextColor;
+  }
+}
+
+p.text-body {
+  color: $profileTextColor !important;
+  font-weight: 500;
+}

@@ -1,0 +1,24 @@
+@import "src/styles/vars";
+@import "../mixins";
+
+.chat-container {
+  background-color: $chatContainerBackgroundColor;
+  position: fixed;
+  z-index: 1030;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 10px;
+  @include flex(row, center, center);
+
+  & .chat-item {
+    margin: 0 8px;
+  }
+
+  & .chat-logo {
+    width: 28px;
+  }
+
+  & .chat-open-arrow {
+  width: 20px;
+}
+}

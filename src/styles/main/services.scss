@@ -1,0 +1,17 @@
+@import "src/styles/vars";
+@import "src/styles/mixins";
+
+.service-item {
+  @include flex(column, center, center);
+  background-color: $serviceItemLogoBackgroundColor;
+  border: 1px solid $serviceItemBorderColor;
+
+  & img {
+    max-height: 50px;
+    max-width: 50px;
+  }
+}
+
+.service-body {
+  border: 1px solid $serviceItemBorderColor;
+}
