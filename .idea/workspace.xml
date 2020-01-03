@@ -2,56 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0cd7d5-6146-45c9-bcad-8aecd7ed4220" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Chat/Chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/UserMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderSecondary/HeaderSecondary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderSecondary/UserLogo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderSecondary/UserMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LeftSideBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LeftSideSubtitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Guide/GuideBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Guide/GuideHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/Row.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/ServiceContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/ServiceLogo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vector/briefcase2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vector/circles.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vector/dialog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vector/gps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vector/info.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vector/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/chat/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/footer/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/header/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/headersecondary/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main/services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/rem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="C:/OSPanel/domains/20181205moodle.ua" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -124,7 +77,7 @@
       <workItem from="1577443555387" duration="30914000" />
       <workItem from="1578037892687" duration="871000" />
       <workItem from="1578039727953" duration="14743000" />
-      <workItem from="1578060702382" duration="21028000" />
+      <workItem from="1578060702382" duration="21971000" />
     </task>
     <servers />
   </component>
