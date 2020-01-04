@@ -9,9 +9,14 @@ const LeftSideBlock = ({ img, text }) => (
   </div>
 )
 
+LeftSideBlock.defaultProps = {
+  img: "",
+  text: ""
+}
+
 LeftSideBlock.propTypes = {
-  img: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired
+  img: PropTypes.string,
+  text: PropTypes.string
 }
 
 export default LeftSideBlock

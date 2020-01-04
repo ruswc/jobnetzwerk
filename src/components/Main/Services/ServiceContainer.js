@@ -9,8 +9,8 @@ const ServiceContainer = ({ logo, text }) => (
 )
 
 ServiceContainer.propTypes = {
-  logo: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired
+  logo: PropTypes.object.isRequired,
+  text: PropTypes.object.isRequired
 }
 
 export default ServiceContainer

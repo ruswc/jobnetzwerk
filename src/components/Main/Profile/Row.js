@@ -14,12 +14,13 @@ const Row = ({ img, header, text }) => (
 )
 
 Row.defaultProps = {
+  img: "",
   header: "",
   text: ""
 }
 
 Row.propTypes = {
-  img: PropTypes.string.isRequired,
+  img: PropTypes.string,
   header: PropTypes.string,
   text: PropTypes.string
 }
