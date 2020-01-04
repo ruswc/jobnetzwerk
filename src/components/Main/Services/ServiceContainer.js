@@ -8,9 +8,14 @@ const ServiceContainer = ({ logo, text }) => (
   </div>
 )
 
+ServiceContainer.defaultProps = {
+  logo: null,
+  text: null
+}
+
 ServiceContainer.propTypes = {
-  logo: PropTypes.object.isRequired,
-  text: PropTypes.object.isRequired
+  logo: PropTypes.shape({}),
+  text: PropTypes.shape({})
 }
 
 export default ServiceContainer
