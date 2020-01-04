@@ -1,7 +1,14 @@
 import React from "react"
+import PropTypes from "prop-types"
 
-export const Hr = ({className}) => (
-    <div>
-        <hr className={className}/>
-    </div>
+const Hr = ({ className }) => (
+  <div>
+    <hr className={className} />
+  </div>
 )
+
+Hr.propTypes = {
+  className: PropTypes.string.isRequired
+}
+
+export default Hr

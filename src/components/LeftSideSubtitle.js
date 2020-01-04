@@ -1,9 +1,22 @@
 import React from "react"
+import PropTypes from "prop-types"
 
-export const LeftSideSubtitle = ({text, children}) => (
-    <h6 className='left-side-subtitle text-center'>
-        {text}
-        <br/>
-        {children}
-    </h6>
+const LeftSideSubtitle = ({ text, children }) => (
+  <h6 className="left-side-subtitle text-center">
+    {text}
+    <br />
+    {children}
+  </h6>
 )
+
+LeftSideSubtitle.defaultProps = {
+  text: "",
+  children: null
+}
+
+LeftSideSubtitle.propTypes = {
+  text: PropTypes.string,
+  children: PropTypes.node
+}
+
+export default LeftSideSubtitle

@@ -1,17 +1,27 @@
 import React from "react"
+import PropTypes from "prop-types"
 
-export const Row = ({img, header, text}) => (
-    <div className='row'>
-        <div className='col-1 p-0 d-flex justify-content-center align-items-center'>
-            <img src={img} alt="" className='icon'/>
-        </div>
-        <div className='col-11'>
-            {header && <h5 className='text-capitalize'>{header}</h5>}
-            {text && <p className='text-body'>{text}</p>}
-        </div>
+const Row = ({ img, header, text }) => (
+  <div className="row">
+    <div className="col-1 p-0 d-flex justify-content-center align-items-center">
+      <img src={img} alt="" className="icon" />
     </div>
+    <div className="col-11">
+      {header && <h5 className="text-capitalize">{header}</h5>}
+      {text && <p className="text-body">{text}</p>}
+    </div>
+  </div>
 )
 
+Row.defaultProps = {
+  header: "",
+  text: ""
+}
 
-// col-2 col-md-1
-// col-10 col-md-11
+Row.propTypes = {
+  img: PropTypes.string.isRequired,
+  header: PropTypes.string,
+  text: PropTypes.string
+}
+
+export default Row

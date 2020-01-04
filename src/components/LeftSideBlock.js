@@ -1,10 +1,17 @@
 import React from "react"
-import {LeftSideSubtitle} from "./LeftSideSubtitle"
+import PropTypes from "prop-types"
+import LeftSideSubtitle from "./LeftSideSubtitle"
 
-
-export const LeftSideBlock = ({img, text}) => (
-    <div className='left-side-block'>
-        {img && <img className="logo" src={img} alt=""/>}
-        {text && <LeftSideSubtitle text={text}/>}
-    </div>
+const LeftSideBlock = ({ img, text }) => (
+  <div className="left-side-block">
+    {img && <img className="logo" src={img} alt="" />}
+    {text && <LeftSideSubtitle text={text} />}
+  </div>
 )
+
+LeftSideBlock.propTypes = {
+  img: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
+}
+
+export default LeftSideBlock
