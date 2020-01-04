@@ -17,7 +17,7 @@ deploy:
   provider: pages
   edge: true
   skip_cleanup: true
-  github_token: $JOBNETZWERK
+  github_token: $JOBNETZWERK_TOKEN
   local_dir: build
   keep_history: true
   on:
