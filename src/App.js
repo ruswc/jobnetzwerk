@@ -1,12 +1,10 @@
 import React from "react"
-// import logo from './logo.svg';
-// import './App.css';
 
 import Header from "./components/Header/Header"
 import HeaderSocondary from "./components/HeaderSecondary/HeaderSecondary"
-import Hr from "./components/Hr"
-import MainHeader from "./components/MainHeader"
-import MainContent from "./components/MainContent"
+import HrSeparator from "./components/Separator/HrSeparator"
+import MainContentHeader from "./components/MainContentHeader/MainHeader"
+import MainContent from "./components"
 import Footer from "./components/Footer"
 import Chat from "./components/Chat/Chat"
 
@@ -15,9 +13,9 @@ function App() {
     <div className="App">
       <Header />
       <HeaderSocondary />
-      <Hr className="main-separator" />
-      <MainHeader />
-      <Hr className="second-separator" />
+      <HrSeparator className="main-separator" />
+      <MainContentHeader />
+      <HrSeparator className="second-separator" />
       <MainContent />
       <Footer />
       <Chat />

@@ -39,11 +39,6 @@ p a {
     left: 0;
   }
 
-
-
-
-
-
 }
 
 .navbar-secondary {
@@ -162,35 +157,4 @@ p a {
     width: 100%;
     left: 0;
   }
-}
-
-.user-logo-container {
-  width: 100%;
-  max-width: $leftSideMaxWidth;
-  min-width: $leftSideMinWidth;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: $sidePanelBackground;
-  position: relative;
-  border-radius: 20px 20px 0 0;
-  top: -10px;
-  bottom: -20px;
-  z-index: 1;
-
-  & .tassel {
-    height: 40px;
-    width: 40px;
-    background-color: $sidePanelBackground;
-    border-radius: 50%;
-    position: absolute;
-    z-index: -1;
-    top: -20px;
-  }
-}
-
-.user-logo-frame {
-  border: 4px solid $userLogoFrameColor;
-  width: 80px;
 }

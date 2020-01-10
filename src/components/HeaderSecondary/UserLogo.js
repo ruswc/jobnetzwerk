@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import LeftSideSubtitle from "../LeftSideSubtitle"
+import LeftSideSubtitle from "../LeftSide/LeftSideSubtitle"
 
 const UserLogo = ({ img }) => (
   <div className="user-logo-container p-4">

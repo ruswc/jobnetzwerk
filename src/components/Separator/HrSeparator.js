@@ -1,14 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const Hr = ({ className }) => (
+const HrSeparator = ({ className }) => (
   <div>
     <hr className={className} />
   </div>
 )
 
-Hr.propTypes = {
+HrSeparator.propTypes = {
   className: PropTypes.string.isRequired
 }
 
-export default Hr
+export default HrSeparator
