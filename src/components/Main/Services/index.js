@@ -1,18 +1,18 @@
 import React from "react"
 
-import dialog from "img/vector/dialog.svg"
-import briefcase2 from "img/vector/briefcase2.svg"
-import target2 from "img/vector/target2.svg"
-import calendar2 from "img/vector/calendar2.svg"
-import people from "img/vector/people.svg"
-import callcenter from "img/vector/callcenter.svg"
+import news2 from "img/vector/news2.svg"
+import jobagent2 from "img/vector/jobagent2.svg"
+import notebook2 from "img/vector/notebook2.svg"
+import date2 from "img/vector/date2.svg"
+import mediator2 from "img/vector/mediator2.svg"
+import support2 from "img/vector/support2.svg"
 import ServiceContainer from "./ServiceContainer"
 import ServiceLogo from "./ServiceLogo"
 
 const Services = () => (
   <div className="container-fluid my-4 pl-md-0">
     <ServiceContainer
-      logo={<ServiceLogo logo={dialog} header="Nachrichten" />}
+      logo={<ServiceLogo logo={news2} header="Nachrichten" />}
       text={
         <p className="text-body">
           Your messsage center for applying jobs with the help of{" "}
@@ -24,7 +24,7 @@ const Services = () => (
     />
 
     <ServiceContainer
-      logo={<ServiceLogo logo={briefcase2} header="Nachrichten" />}
+      logo={<ServiceLogo logo={jobagent2} header="Jobagent" />}
       text={
         <p className="text-body">
           <a href="#home">Browse</a> matching job ads depending on your chosen
@@ -37,7 +37,7 @@ const Services = () => (
     />
 
     <ServiceContainer
-      logo={<ServiceLogo logo={target2} header="Notizbuch" />}
+      logo={<ServiceLogo logo={notebook2} header="Notizbuch" />}
       text={
         <p className="text-body">
           Organize you aded job ads on <a href="#home">your notepad</a>!
@@ -49,7 +49,7 @@ const Services = () => (
     />
 
     <ServiceContainer
-      logo={<ServiceLogo logo={calendar2} header="Termine" />}
+      logo={<ServiceLogo logo={date2} header="Termine" />}
       text={
         <p className="text-body">
           <a href="#home">View your calender</a> directly to see your
@@ -60,7 +60,7 @@ const Services = () => (
     />
 
     <ServiceContainer
-      logo={<ServiceLogo logo={people} header="Dein Vermittler" />}
+      logo={<ServiceLogo logo={mediator2} header="Dein Vermittler" />}
       text={
         <p className="text-body">
           Your consultant during your applications is Max Musterfrau. Keep her
@@ -72,7 +72,7 @@ const Services = () => (
     />
 
     <ServiceContainer
-      logo={<ServiceLogo logo={callcenter} header="Support" />}
+      logo={<ServiceLogo logo={support2} header="Support" />}
       text={
         <p className="text-body">
           If you have any technical problems don‘t hesitate to{" "}

@@ -7,15 +7,15 @@ const HeaderSocondary = () => (
   <div className="nav navbar-secondary">
     <div className="container-fluid">
       <div className="row">
-        <div className="col-4 col-sm-4 col-md-3 col-lg-2">
+        <div className="col-3 col-sm-3 col-md-3 col-lg-2 px-2 px-sm-3">
           <UserLogo img={userlogo} />
         </div>
-        <div className="col-6 col-sm-6 col-md-7 col-lg-8">
+        <div className="col-7 col-sm-7 col-md-7 col-lg-8 px-2 px-sm-3">
           <div className="secondary-header-text">
             <h5 className="text-white">Herzlich Willcommen, Derya Bulut!</h5>
           </div>
         </div>
-        <div className="col-2">
+        <div className="col-2 px-2 px-sm-3">
           <UserMenu />
         </div>
       </div>
