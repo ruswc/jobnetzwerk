@@ -1,19 +1,22 @@
 import React from "react"
 import Logo from "./Logo"
 import UserMenu from "./UserMenu"
+import ContainerMainLeftColumn from "../Containers/ContainerMainLeftColumn"
+import ContainerMainMiddleColumn from "../Containers/ContainerMainMiddleColumn"
+import ContainerMainRightLastColumn from "../Containers/ContainerMainRightLastColumn"
 
 const Header = () => (
   <div className="container-fluid">
     <div className="row">
-      <div className="col-3 col-sm-3 col-md-3 col-lg-2 px-2 px-sm-3">
+      <ContainerMainLeftColumn>
         <Logo />
-      </div>
-      <div className="col-7 col-sm-7 col-md-7 col-lg-8 px-2 px-sm-3">
+      </ContainerMainLeftColumn>
+      <ContainerMainMiddleColumn>
         <div className="header-text">KUNDENLOGO</div>
-      </div>
-      <div className="col-2 px-2 px-sm-3 d-flex justify-content-center align-items-center">
+      </ContainerMainMiddleColumn>
+      <ContainerMainRightLastColumn className="d-flex justify-content-center align-items-center">
         <UserMenu />
-      </div>
+      </ContainerMainRightLastColumn>
     </div>
   </div>
 )
