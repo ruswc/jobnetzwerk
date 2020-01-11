@@ -1,5 +1,5 @@
 import React from "react"
-import Container from "./Container"
+import Container from "../Containers/Container"
 import ProfileHeader from "./Profile/ProfileHeader"
 import ProfileBody from "./Profile/ProfileBody"
 import GuideHeader from "./Guide/GuideHeader"
