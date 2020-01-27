@@ -1,5 +1,5 @@
-import React from "react"
-import edit from "img/vector/edit.svg"
+import React from 'react'
+import edit from 'img/vector/edit.svg'
 
 const UserMenu = () => (
   <div className="user-edit-wrapper d-flex flex-row justify-content-center align-items-center">

@@ -1,9 +1,9 @@
-import React from "react"
-import Logo from "./Logo"
-import UserMenu from "./UserMenu"
-import ContainerMainLeftColumn from "../Containers/ContainerMainLeftColumn"
-import ContainerMainMiddleColumn from "../Containers/ContainerMainMiddleColumn"
-import ContainerMainRightLastColumn from "../Containers/ContainerMainRightLastColumn"
+import React from 'react'
+import Logo from './Logo'
+import UserMenu from './UserMenu'
+import ContainerMainLeftColumn from '../Containers/ContainerMainLeftColumn'
+import ContainerMainMiddleColumn from '../Containers/ContainerMainMiddleColumn'
+import ContainerMainRightLastColumn from '../Containers/ContainerMainRightLastColumn'
 
 const Header = () => (
   <div className="container-fluid">

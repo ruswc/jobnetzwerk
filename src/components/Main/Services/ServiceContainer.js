@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const ServiceContainer = ({ logo, text }) => (
   <div className="row my-2">

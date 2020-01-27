@@ -1,16 +1,24 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
 $mainBackground : white;
-$secondaryBackground : #999C9C;
+$secondaryColor : #999C9C;
 
 $thirdColor: #F3B321;
 $fourthColor: #E6E6E6;
 $fifthColor: #EBB818;
+$sixthColor: #F2B32E;
+$color7: #9E9E9F;
+$color8: #4D4D4D;
+$color9: #666666;
+$color10: #F2F2F2;
+$color11: #333333;
+$color12: #72787D;
+
 
 $textColorSecondary: #565D63;
 $textColorThirdly: #ffffff;
-$textColorFourth: #9E9E9F;
-$textColorFifth: #333333;
+$textColorFourth: $color7;
+$textColorFifth: $color11;
 
 $separatorHight: 2px;
 
@@ -19,7 +27,7 @@ $fontHeaderThirdSize: 1.25rem;
 //$fontHeaderFourthSize: 12px;
 $fontHeaderFourthSize: 0.9rem;
 
-$sidePanelBackground: #4D4D4D;
+$sidePanelBackground: $color8;
 $leftSideMaxWidth: 160px;
 $leftSideMinWidth: 80px;
 
@@ -27,16 +35,16 @@ $userLogoFrameColor: #39B54A;
 $userMenuEditBorderColor: $fifthColor;
 
 $guideHeaderBackgroundColor: #8CC63F;
-$profileSecondBackground: #F2F2F2;
+$profileSecondBackground: $color10;
 $profileSecondBlockBorderColor: $fourthColor;
 
-$profileHeaderTextColor: #333333;
+$profileHeaderTextColor: $color11;
 
-$profileTextColor: #666666;
+$profileTextColor: $color9;
 
 $aColor: #FBAE17;
 
-$serviceItemLogoBackgroundColor: #F2F2F2;
+$serviceItemLogoBackgroundColor: $color10;
 $serviceItemBorderColor: $fourthColor;
 
 $footerBackgroundColor: #CFCECE;

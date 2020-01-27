@@ -1,9 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
-import classNames from "classnames"
+import React from 'react'
+import PropTypes from 'prop-types'
+import classNames from 'classnames'
 
 const ContainerMainRightLastColumn = ({ children, className }) => {
-  const classes = classNames("col-2 px-2 px-sm-3 px-xl-4", {
+  const classes = classNames('col-2 px-2 px-sm-3 px-xl-4', {
     [className]: className
   })
   return <div className={classes}>{children}</div>
@@ -11,7 +11,7 @@ const ContainerMainRightLastColumn = ({ children, className }) => {
 
 ContainerMainRightLastColumn.defaultProps = {
   children: null,
-  className: ""
+  className: ''
 }
 
 ContainerMainRightLastColumn.propTypes = {

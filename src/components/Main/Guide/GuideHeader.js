@@ -1,6 +1,6 @@
-import React from "react"
-import circles from "img/vector/circles.svg"
-import info from "img/vector/info.svg"
+import React from 'react'
+import circles from 'img/vector/circles.svg'
+import info from 'img/vector/info.svg'
 
 const GuideHeader = () => (
   <div className="guide-header">

@@ -1,10 +1,10 @@
-import React from "react"
-import PropTypes from "prop-types"
-import classNames from "classnames"
+import React from 'react'
+import PropTypes from 'prop-types'
+import classNames from 'classnames'
 
 const ContainerMainMiddleColumn = ({ children, className }) => {
   const classes = classNames(
-    "col-7 col-sm-7 col-md-7 col-lg-8 px-2 px-sm-3 px-xl-4",
+    'col-7 col-sm-7 col-md-7 col-lg-8 px-2 px-sm-3 px-xl-4',
     {
       [className]: className
     }
@@ -14,7 +14,7 @@ const ContainerMainMiddleColumn = ({ children, className }) => {
 
 ContainerMainMiddleColumn.defaultProps = {
   children: null,
-  className: ""
+  className: ''
 }
 
 ContainerMainMiddleColumn.propTypes = {

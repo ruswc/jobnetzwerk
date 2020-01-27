@@ -1,0 +1,20 @@
+@import "src/styles/vars";
+
+.header-tab {
+
+  width: fit-content;
+  padding: 8px 16px;
+
+  &.item {
+    cursor: pointer;
+  }
+
+  &.selected {
+    background-color: $thirdColor;
+  }
+}
+
+.header-third {
+  color: $textColorSecondary;
+  font-size: $fontHeaderThirdSize;
+}

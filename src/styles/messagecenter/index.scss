@@ -1,0 +1,60 @@
+@import '../vars';
+
+.form-control {
+  padding-left: 2rem;
+  border: 2px solid $fourthColor;
+  border-radius: unset;
+}
+
+.search-icon {
+  height: 1rem;
+  position: absolute;
+  top: 0.8rem;
+  left: 0.5rem;
+  z-index: 4;
+}
+
+.filter-arrow {
+  fill: $sixthColor;
+  width: 1rem;
+  transform: rotate(180deg);
+  margin-left: 0.5rem;
+}
+
+.filter-text {
+  color: $secondaryColor;
+  font-weight: 500;
+}
+
+.arrow-left,
+.arrow-right {
+  width: 18px;
+  fill: $color8;
+  transition: 0.15s ease-in-out;
+
+  &:hover {
+    fill: $color7;
+  }
+}
+
+.arrow-left {
+  transform: rotate(270deg);
+}
+
+.arrow-right {
+  transform: rotate(90deg);
+}
+
+.message-item {
+  background-color: $color10;
+  border: 2px solid $fourthColor;
+}
+
+.select-container {
+
+  &.selected {
+    background-color: $color10;
+    padding: 8px 8px;
+    border-radius: 8px;
+  }
+}
