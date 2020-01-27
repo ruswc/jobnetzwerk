@@ -2,8 +2,8 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 import First from './pages/First'
-import Error from './pages/Error'
 import MessageCenter from './pages/MessageCenter'
+import Error from './pages/Error'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Switch>
         <First path="/" exact />
         <MessageCenter path="/messagecenter" exact />
-        <Route path="*" exact>
+        <Route path="*">
           <Error />
         </Route>
       </Switch>
