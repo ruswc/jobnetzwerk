@@ -8,14 +8,16 @@ import Error from './pages/Error'
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={`${process.env.PUBLIC_URL}/`}>
         <Link to="/"> Go to Homepage </Link>
         <Link to="/messagecenter"> Go to Messagecenter </Link>
         <Link to="/anypage"> Go to 404 </Link>
         <Switch>
-          <Route exact path="/" component={First} />
-          <Route exact path="/messagecenter" component={MessageCenter} />
-          <Route path="/*" component={Error} />
+          <>
+            <Route exact path="/" component={First} />
+            <Route exact path="/messagecenter" component={MessageCenter} />
+            <Route path="/*" component={Error} />
+          </>
         </Switch>
       </Router>
     </>
