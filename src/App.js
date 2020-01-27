@@ -11,7 +11,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={First} />
-          <Route path="/messagecenter" component={MessageCenter} />
+          <Route exact path="/messagecenter" component={MessageCenter} />
           <Route path="/*" component={Error} />
         </Switch>
       </Router>
