@@ -11,7 +11,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Link to="/"> Go to Homepage </Link>
         <Link to="/messagecenter"> Go to Messagecenter </Link>
-        <Link to="/adfasdf"> Go to 404 </Link>
+        <Link to="/anypage"> Go to 404 </Link>
         <Switch>
           <Route exact path="/" component={First} />
           <Route exact path="/messagecenter" component={MessageCenter} />
