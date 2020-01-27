@@ -16,7 +16,7 @@ function App() {
           <Route path={`${process.env.PUBLIC_URL}/messagecenter`}>
             <MessageCenter />
           </Route>
-          <Route>
+          <Route path={`${process.env.PUBLIC_URL}/*`}>
             <Error />
           </Route>
         </Switch>
