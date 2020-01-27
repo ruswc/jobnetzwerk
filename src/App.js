@@ -1,6 +1,5 @@
 import React from 'react'
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import First from './pages/First'
 import MessageCenter from './pages/MessageCenter'
@@ -10,11 +9,17 @@ function App() {
   return (
     <>
       <Router basename={process.env.PUBLIC_URL}>
-        {/* <Switch> */}
-        <Route exact path="/" component={First} />
-        <Route path="/messagecenter" component={MessageCenter} />
-        <Route path="/*" component={Error} />
-        {/* </Switch> */}
+        <Switch>
+          <Route exact path="/">
+            <First />
+          </Route>
+          <Route path="/messagecenter">
+            <MessageCenter />
+          </Route>
+          <Route>
+            <Error />
+          </Route>
+        </Switch>
       </Router>
     </>
   )
