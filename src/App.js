@@ -12,8 +12,8 @@ function App() {
       {/* <BrowserRouter basename="/"> */}
       <Switch>
         <Route exact path="/" component={First} />
-        <Route path="/messagecenter" component={MessageCenter} />
-        <Route path="/*" component={Error} />
+        <Route exact path="/messagecenter" component={MessageCenter} />
+        <Route exact path="/*" component={Error} />
       </Switch>
       {/* </BrowserRouter> */}
     </>
