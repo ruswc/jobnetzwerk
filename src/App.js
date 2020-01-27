@@ -1,6 +1,5 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-// import BrowserRouter from 'react-router-dom/modules/BrowserRouter'
 
 import First from './pages/First'
 import MessageCenter from './pages/MessageCenter'
