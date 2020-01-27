@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const ServiceLogo = ({ logo, header }) => (
   <div className="service-item p-4 w-100 h-100">

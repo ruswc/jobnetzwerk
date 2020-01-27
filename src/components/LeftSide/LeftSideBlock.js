@@ -1,6 +1,6 @@
-import React from "react"
-import PropTypes from "prop-types"
-import LeftSideSubtitle from "./LeftSideSubtitle"
+import React from 'react'
+import PropTypes from 'prop-types'
+import LeftSideSubtitle from './LeftSideSubtitle'
 
 const LeftSideBlock = ({ img, text }) => (
   <div className="left-side-block">
@@ -10,8 +10,8 @@ const LeftSideBlock = ({ img, text }) => (
 )
 
 LeftSideBlock.defaultProps = {
-  img: "",
-  text: ""
+  img: '',
+  text: ''
 }
 
 LeftSideBlock.propTypes = {

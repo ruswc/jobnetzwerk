@@ -1,6 +1,6 @@
-import React from "react"
-import cv from "img/vector/cv.svg"
-import more from "img/vector/more.svg"
+import React from 'react'
+import cv from 'img/vector/cv.svg'
+import more from 'img/vector/more.svg'
 
 const ProfileHeader = () => (
   <div>

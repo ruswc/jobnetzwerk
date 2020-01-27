@@ -1,6 +1,6 @@
-import React from "react"
-import chat from "img/vector/chat.svg"
-import arrowup from "img/vector/arrowup.svg"
+import React from 'react'
+import chat from 'img/vector/chat.svg'
+import arrowup from 'img/vector/arrows/arrowup.svg'
 
 const Chat = () => (
   <div id="chat-container" className="chat-container py-2 px-3">

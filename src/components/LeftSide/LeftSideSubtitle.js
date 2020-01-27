@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const LeftSideSubtitle = ({ text, children }) => (
   <h6 className="left-side-subtitle text-center">
@@ -10,7 +10,7 @@ const LeftSideSubtitle = ({ text, children }) => (
 )
 
 LeftSideSubtitle.defaultProps = {
-  text: "",
+  text: '',
   children: null
 }
 

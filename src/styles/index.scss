@@ -1,22 +1,54 @@
 //@import '~bootstrap/scss/bootstrap.scss';
-@import "vars";
-@import "main/main";
-@import "main/services";
-@import "footer/index";
-@import "chat/index";
-@import "header/index";
-@import "rem";
-@import "headersecondary/index";
+@import 'vars';
+@import 'main/main';
+@import 'main/services';
+@import 'footer/index';
+@import 'chat/index';
+@import 'header/index';
+@import 'rem';
+@import 'headersecondary/index';
+@import 'main/header';
+@import 'messagecenter/index';
+@import 'notfound';
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
 
 h6 {
   font-size: $h6FontSize;
+}
+
+.active-text {
+  color: $sixthColor;
+
+  &.main {
+    color: $textColorSecondary;
+
+    &.name {
+      color: $textColorFifth;
+    }
+
+    &.content {
+      color: $color12;
+    }
+  }
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
 p a {
   color: $aColor;
   box-sizing: border-box;
   position: relative;
-  transition: all .5s;
+  transition: all 0.5s;
   padding-bottom: 3px;
 
   &:hover {
@@ -25,24 +57,23 @@ p a {
   }
 
   &:before {
-    content: "";
+    content: '';
     width: 0;
     height: 2px;
     position: absolute;
     bottom: 0;
     left: 50%;
-    transition: all .3s;
+    transition: all 0.3s;
     background: $aColor;
   }
   &:hover:before {
     width: 100%;
     left: 0;
   }
-
 }
 
 .navbar-secondary {
-  background-color: $secondaryBackground;
+  background-color: $secondaryColor;
   max-height: 80px;
 }
 
@@ -87,17 +118,6 @@ p a {
   max-height: 50px;
 }
 
-.user-info {
-  background-color: $thirdColor;
-  width: fit-content;
-  padding: 8px 16px;
-}
-
-.header-third {
-  color: $textColorSecondary;
-  font-size: $fontHeaderThirdSize;
-}
-
 .header-fourth {
   color: $textColorThirdly;
   font-size: $fontHeaderFourthSize;
@@ -134,18 +154,18 @@ p a {
   margin-top: 8px;
   box-sizing: border-box;
   position: relative;
-  transition: all .6s;
+  transition: all 0.6s;
   padding-bottom: 3px;
   width: max-content;
 
   &:before {
-    content: "";
+    content: '';
     width: 0;
     height: 2px;
     position: absolute;
     bottom: 0;
     left: 50%;
-    transition: all .3s;
+    transition: all 0.3s;
     background: $thirdColor;
   }
 

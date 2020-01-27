@@ -1,13 +1,13 @@
-import React from "react"
-import Container from "../Containers/Container"
-import ProfileHeader from "./Profile/ProfileHeader"
-import ProfileBody from "./Profile/ProfileBody"
-import GuideHeader from "./Guide/GuideHeader"
-import GuideBody from "./Guide/GuideBody"
-import Services from "./Services/index"
+import React from 'react'
+import Container from '../Containers/Container'
+import ProfileHeader from './Profile/ProfileHeader'
+import ProfileBody from './Profile/ProfileBody'
+import GuideHeader from './Guide/GuideHeader'
+import GuideBody from './Guide/GuideBody'
+import Services from './Services/index'
 
 const Main = () => (
-  <div>
+  <>
     <Container>
       <ProfileHeader />
       <ProfileBody />
@@ -18,7 +18,7 @@ const Main = () => (
     <Container>
       <Services />
     </Container>
-  </div>
+  </>
 )
 
 export default Main

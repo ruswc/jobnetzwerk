@@ -1,25 +1,21 @@
-import React from "react"
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
 
-import Header from "./components/Header/Header"
-import HeaderSocondary from "./components/HeaderSecondary/HeaderSecondary"
-import HrSeparator from "./components/Separator/HrSeparator"
-import MainContentHeader from "./components/MainContentHeader/MainHeader"
-import MainContent from "./components"
-import Footer from "./components/Footer"
-import Chat from "./components/Chat/Chat"
+import First from './pages/First'
+import Error from './pages/Error'
+import MessageCenter from './pages/MessageCenter'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <HeaderSocondary />
-      <HrSeparator className="main-separator" />
-      <MainContentHeader />
-      <HrSeparator className="second-separator" />
-      <MainContent />
-      <Footer />
-      <Chat />
-    </div>
+    <>
+      <Switch>
+        <First path="/" exact />
+        <MessageCenter path="/messagecenter" exact />
+        <Route path="*" exact>
+          <Error />
+        </Route>
+      </Switch>
+    </>
   )
 }
 

@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const Row = ({ img, header, text }) => (
   <div className="row">
@@ -14,9 +14,9 @@ const Row = ({ img, header, text }) => (
 )
 
 Row.defaultProps = {
-  img: "",
-  header: "",
-  text: ""
+  img: '',
+  header: '',
+  text: ''
 }
 
 Row.propTypes = {
