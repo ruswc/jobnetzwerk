@@ -9,13 +9,15 @@ import Error from './pages/Error'
 function App() {
   return (
     <>
-      {/* <BrowserRouter basename="/"> */}
       <Switch>
-        <Route exact path="/" component={First} />
-        <Route exact path="/messagecenter" component={MessageCenter} />
-        <Route exact path="/*" component={Error} />
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={First} />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/messagecenter`}
+          component={MessageCenter}
+        />
+        <Route exact path={`${process.env.PUBLIC_URL}/*`} component={Error} />
       </Switch>
-      {/* </BrowserRouter> */}
     </>
   )
 }
