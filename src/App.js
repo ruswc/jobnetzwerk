@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Switch>
-        <First path="/" exact />
+        <First path="/" />
         <MessageCenter path="/messagecenter" exact />
         <Route path="*">
           <Error />
