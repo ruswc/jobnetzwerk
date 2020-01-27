@@ -8,7 +8,7 @@ import Error from './pages/Error'
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL} forceRefresh>
+      <Router basename={process.env.PUBLIC_URL}>
         <Link to="/"> Go to Homepage </Link>
         <Link to="/messagecenter"> Go to Messagecenter </Link>
         <Link to="/anypage"> Go to 404 </Link>
