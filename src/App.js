@@ -10,15 +10,9 @@ function App() {
     <>
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`}>
-            <First />
-          </Route>
-          <Route path={`${process.env.PUBLIC_URL}/messagecenter`}>
-            <MessageCenter />
-          </Route>
-          <Route path={`${process.env.PUBLIC_URL}/*`}>
-            <Error />
-          </Route>
+          <Route exact path="/" component={First} />
+          <Route path="/messagecenter" component={MessageCenter} />
+          <Route path="/*" component={Error} />
         </Switch>
       </Router>
     </>
