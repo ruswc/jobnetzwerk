@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "485f93ca33527e65c8d1d172ef3aa3a0",
+    "revision": "f5d08714c77bc5b9647c217c825b19fe",
     "url": "/jobnetzwerk/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jobnetzwerk/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "51ea1e0168b80634de8c",
+    "revision": "7100e0ebe5a0fd2628d6",
     "url": "/jobnetzwerk/static/css/main.d9a62534.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jobnetzwerk/static/js/2.07947153.chunk.js.LICENSE"
   },
   {
-    "revision": "51ea1e0168b80634de8c",
-    "url": "/jobnetzwerk/static/js/main.527f9ddb.chunk.js"
+    "revision": "7100e0ebe5a0fd2628d6",
+    "url": "/jobnetzwerk/static/js/main.6656499a.chunk.js"
   },
   {
     "revision": "5c8bc1075297542b95e4",
