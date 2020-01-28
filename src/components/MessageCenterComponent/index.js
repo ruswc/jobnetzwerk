@@ -9,15 +9,7 @@ import Printer from './Select/Printer'
 import Letter from './Select/Letter'
 import Pages from './Select/Pages'
 import MessageItem from './Messages/MessageItem'
-
-const mock1 = 'https://via.placeholder.com/600/f66b97'
-const mock2 = 'https://via.placeholder.com/600/56a8c2'
-const mock3 = 'https://via.placeholder.com/600/b0f7cc'
-const mock4 = 'https://via.placeholder.com/600/54176f'
-const mock5 = 'https://via.placeholder.com/600/51aa97'
-const mock6 = 'https://via.placeholder.com/600/aaffcc'
-const mock7 = 'https://via.placeholder.com/600/dd1177'
-const mock8 = 'https://via.placeholder.com/600/954565'
+import MessageFilter from './MessageFilter/MessageFilter'
 
 const name1 = 'Ralf Bultschnieder'
 const name2 = 'Max Mustermann'
@@ -69,30 +61,31 @@ const MessageCenterComponent = () => (
         <Pages />
       </div>
     </ContainerRow>
-    <MessageItem photo={mock1} name={name1} text={text1} data={data1} />
-    <MessageItem photo={mock2} name={name2} text={text2} data={data2} />
-    <MessageItem photo={mock3} name={name3} text={text3} data={data3} />
-    <MessageItem photo={mock4} name={name4} text={text4} data={data4} />
-    <MessageItem photo={mock5} name={name1} text={text1} data={data5} />
-    <MessageItem photo={mock6} name={name2} text={text2} data={data6} />
-    <MessageItem photo={mock7} name={name3} text={text3} data={data7} />
-    <MessageItem photo={mock8} name={name4} text={text4} data={data8} />
-    <MessageItem photo={mock1} name={name1} text={text1} data={data9} />
-    <MessageItem photo={mock2} name={name1} text={text1} data={data1} />
-    <MessageItem photo={mock3} name={name2} text={text2} data={data2} />
-    <MessageItem photo={mock4} name={name3} text={text3} data={data3} />
-    <MessageItem photo={mock5} name={name4} text={text4} data={data4} />
-    <MessageItem photo={mock6} name={name1} text={text1} data={data5} />
-    <MessageItem photo={mock7} name={name2} text={text2} data={data6} />
-    <MessageItem photo={mock8} name={name3} text={text3} data={data7} />
-    <MessageItem photo={mock1} name={name4} text={text4} data={data8} />
-    <MessageItem photo={mock2} name={name1} text={text1} data={data9} />
-    <MessageItem photo={mock3} name={name1} text={text1} data={data1} />
-    <MessageItem photo={mock4} name={name2} text={text2} data={data2} />
-    <MessageItem photo={mock5} name={name3} text={text3} data={data3} />
-    <MessageItem photo={mock6} name={name4} text={text4} data={data4} />
-    <MessageItem photo={mock7} name={name1} text={text1} data={data5} />
-    <MessageItem photo={mock8} name={name2} text={text2} data={data6} />
+    <MessageFilter />
+    <MessageItem name={name1} text={text1} data={data1} />
+    <MessageItem name={name2} text={text2} data={data2} />
+    <MessageItem name={name3} text={text3} data={data3} />
+    <MessageItem name={name4} text={text4} data={data4} />
+    <MessageItem name={name1} text={text1} data={data5} />
+    <MessageItem name={name2} text={text2} data={data6} />
+    <MessageItem name={name3} text={text3} data={data7} />
+    <MessageItem name={name4} text={text4} data={data8} />
+    <MessageItem name={name1} text={text1} data={data9} />
+    <MessageItem name={name1} text={text1} data={data1} />
+    <MessageItem name={name2} text={text2} data={data2} />
+    <MessageItem name={name3} text={text3} data={data3} />
+    <MessageItem name={name4} text={text4} data={data4} />
+    <MessageItem name={name1} text={text1} data={data5} />
+    <MessageItem name={name2} text={text2} data={data6} />
+    <MessageItem name={name3} text={text3} data={data7} />
+    <MessageItem name={name4} text={text4} data={data8} />
+    <MessageItem name={name1} text={text1} data={data9} />
+    <MessageItem name={name1} text={text1} data={data1} />
+    <MessageItem name={name2} text={text2} data={data2} />
+    <MessageItem name={name3} text={text3} data={data3} />
+    <MessageItem name={name4} text={text4} data={data4} />
+    <MessageItem name={name1} text={text1} data={data5} />
+    <MessageItem name={name2} text={text2} data={data6} />
   </>
 )
 
