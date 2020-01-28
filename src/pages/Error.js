@@ -14,7 +14,7 @@ const Error = () => (
             <h1>Oops!</h1>
             <h2>404 - The Page can&apos;t be found</h2>
           </div>
-          <Link to={`${process.env.PUBLIC_URL}`}> Go to Homepage </Link>
+          <Link to={`${process.env.PUBLIC_URL}/`}> Go to Homepage </Link>
         </div>
       </div>
     </div>
