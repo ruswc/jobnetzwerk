@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jobnetzwerk/static/css/main.d9a62534.chunk.css",
-    "main.js": "/jobnetzwerk/static/js/main.3f1bf8f7.chunk.js",
-    "main.js.map": "/jobnetzwerk/static/js/main.3f1bf8f7.chunk.js.map",
+    "main.js": "/jobnetzwerk/static/js/main.527f9ddb.chunk.js",
+    "main.js.map": "/jobnetzwerk/static/js/main.527f9ddb.chunk.js.map",
     "runtime-main.js": "/jobnetzwerk/static/js/runtime-main.8a13a980.js",
     "runtime-main.js.map": "/jobnetzwerk/static/js/runtime-main.8a13a980.js.map",
     "static/css/2.64a99b10.chunk.css": "/jobnetzwerk/static/css/2.64a99b10.chunk.css",
     "static/js/2.07947153.chunk.js": "/jobnetzwerk/static/js/2.07947153.chunk.js",
     "static/js/2.07947153.chunk.js.map": "/jobnetzwerk/static/js/2.07947153.chunk.js.map",
     "index.html": "/jobnetzwerk/index.html",
-    "precache-manifest.bd7e55a4d67bd3cc065fdd2bfc321c0a.js": "/jobnetzwerk/precache-manifest.bd7e55a4d67bd3cc065fdd2bfc321c0a.js",
+    "precache-manifest.36346ef240e0832038cb9234750c1796.js": "/jobnetzwerk/precache-manifest.36346ef240e0832038cb9234750c1796.js",
     "service-worker.js": "/jobnetzwerk/service-worker.js",
     "static/css/2.64a99b10.chunk.css.map": "/jobnetzwerk/static/css/2.64a99b10.chunk.css.map",
     "static/css/main.d9a62534.chunk.css.map": "/jobnetzwerk/static/css/main.d9a62534.chunk.css.map",
@@ -52,6 +52,6 @@
     "static/css/2.64a99b10.chunk.css",
     "static/js/2.07947153.chunk.js",
     "static/css/main.d9a62534.chunk.css",
-    "static/js/main.3f1bf8f7.chunk.js"
+    "static/js/main.527f9ddb.chunk.js"
   ]
 }
