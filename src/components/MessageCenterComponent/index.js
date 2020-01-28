@@ -9,6 +9,7 @@ import Printer from './Select/Printer'
 import Letter from './Select/Letter'
 import Pages from './Select/Pages'
 import MessageItem from './Messages/MessageItem'
+import MessageFilter from './MessageFilter/MessageFilter'
 
 const name1 = 'Ralf Bultschnieder'
 const name2 = 'Max Mustermann'
@@ -60,6 +61,7 @@ const MessageCenterComponent = () => (
         <Pages />
       </div>
     </ContainerRow>
+    <MessageFilter />
     <MessageItem name={name1} text={text1} data={data1} />
     <MessageItem name={name2} text={text2} data={data2} />
     <MessageItem name={name3} text={text3} data={data3} />
