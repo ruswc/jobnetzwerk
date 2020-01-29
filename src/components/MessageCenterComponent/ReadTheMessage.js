@@ -6,7 +6,7 @@ import BackToList from './Select/BackToList'
 import Trash from './Select/Trash'
 import Printer from './Select/Printer'
 import Letter from './Select/Letter'
-import AnswerForward from './AnswerForward/AnswerForwerd'
+import AnswerForward from './AnswerForward/AnswerForward'
 import HrSeparator from '../Separator/HrSeparator'
 import AttachedFile from './Attach/AttachedFile'
 
