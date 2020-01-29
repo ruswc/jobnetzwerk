@@ -1,39 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca5b9028cc7f020f6be99df0a77de1cb",
+    "revision": "53226354099e38031984ac1c61e6981d",
     "url": "/jobnetzwerk/index.html"
   },
   {
-    "revision": "a6f75094c413bd241a64",
+    "revision": "a8ca1ab6092b0baca1c8",
     "url": "/jobnetzwerk/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "f432cd5cef0aa71d4fa8",
-    "url": "/jobnetzwerk/static/css/main.93898601.chunk.css"
+    "revision": "1f14ea9617f6c714a3f1",
+    "url": "/jobnetzwerk/static/css/main.541154ee.chunk.css"
   },
   {
-    "revision": "a6f75094c413bd241a64",
-    "url": "/jobnetzwerk/static/js/2.07947153.chunk.js"
+    "revision": "a8ca1ab6092b0baca1c8",
+    "url": "/jobnetzwerk/static/js/2.edd00782.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/jobnetzwerk/static/js/2.07947153.chunk.js.LICENSE"
+    "url": "/jobnetzwerk/static/js/2.edd00782.chunk.js.LICENSE"
   },
   {
-    "revision": "f432cd5cef0aa71d4fa8",
-    "url": "/jobnetzwerk/static/js/main.26f875d1.chunk.js"
+    "revision": "1f14ea9617f6c714a3f1",
+    "url": "/jobnetzwerk/static/js/main.4e3ad990.chunk.js"
   },
   {
     "revision": "5c8bc1075297542b95e4",
     "url": "/jobnetzwerk/static/js/runtime-main.8a13a980.js"
   },
   {
-    "revision": "9d70b54a1a19a16dcf65ab60244d354c",
-    "url": "/jobnetzwerk/static/media/arrow.9d70b54a.svg"
+    "revision": "ec9001355f16dc7c2799f0503e48c80b",
+    "url": "/jobnetzwerk/static/media/answerarrow.ec900135.svg"
+  },
+  {
+    "revision": "2ed1db490cae66a861cd91ed7621d5fe",
+    "url": "/jobnetzwerk/static/media/arrow.2ed1db49.svg"
+  },
+  {
+    "revision": "e47ba48c3e58343b49abed806efe31a7",
+    "url": "/jobnetzwerk/static/media/arrowdart.e47ba48c.svg"
   },
   {
     "revision": "b1271a951cb857a43deaadc0d63173bd",
     "url": "/jobnetzwerk/static/media/arrowup.b1271a95.svg"
+  },
+  {
+    "revision": "479abca954d7f9bf2067a60389a025f2",
+    "url": "/jobnetzwerk/static/media/bodyshape.479abca9.svg"
   },
   {
     "revision": "430def4c4c0f4b870c3e3b2cbd0295aa",
@@ -62,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a879b8d952a58f77d9820610bc34918",
     "url": "/jobnetzwerk/static/media/edit.9a879b8d.svg"
+  },
+  {
+    "revision": "f10725a88f6c5e716726ad161a745bc9",
+    "url": "/jobnetzwerk/static/media/forwardarrow.f10725a8.svg"
   },
   {
     "revision": "885abb26889ebbbea2ebc43ac9d6c762",
@@ -122,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59520b38970b742d12e2928fb1e063d0",
     "url": "/jobnetzwerk/static/media/notebook2.59520b38.svg"
+  },
+  {
+    "revision": "956440def3779ec7887594222c616343",
+    "url": "/jobnetzwerk/static/media/pdficon.956440de.svg"
   },
   {
     "revision": "3f2d88f5ac1d0f5468c1bca3a21ffd62",

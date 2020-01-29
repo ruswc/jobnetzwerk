@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+     style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality;"
+     viewBox="0 0 12.79 13">
+    <g id="arrowdart">
+        <path d="M6.37,12.94.06,6.62a.15.15,0,0,1,0-.24L6.37.07a.13.13,0,0,1,.23,0L8,1.45l-4,4h8.45a.33.33,0,0,1,.33.33V7.25a.35.35,0,0,1-.33.33H4l4,4L6.6,12.94a.14.14,0,0,1-.23,0Z"/>
+    </g>
+</svg>
