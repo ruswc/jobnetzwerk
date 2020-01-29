@@ -13,7 +13,7 @@ import Letters from '../components/MainContentHeader/Letters'
 import TextModules from '../components/MainContentHeader/TextModules'
 import MessageCenterComponent from '../components/MessageCenterComponent'
 
-const MessageCenter = () => (
+const MessageCenter = ({ ...props }) => (
   <>
     <Header />
     <HeaderSocondary />
@@ -27,7 +27,8 @@ const MessageCenter = () => (
     </MainContentHeader>
     <HrSeparator className="second-separator" />
     <MainContent>
-      <MessageCenterComponent />
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+      <MessageCenterComponent {...props} />
     </MainContent>
     <Footer />
     <Chat />

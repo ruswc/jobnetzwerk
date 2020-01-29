@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.75 20.92">
+    <defs>
+        <style>.pdf-icon-cls-1{fill:#fff;}.pdf-icon-cls-2{fill:#ff4253;}.pdf-icon-cls-3{fill:#c23240;}.pdf-icon-cls-4{fill:#404041;}</style>
+    </defs>
+    <g id="pdf-icon">
+        <path class="pdf-icon-cls-1"
+              d="M21.75,0H4.18A2.47,2.47,0,0,0,1.65,2.39h0V20.92H19.23V2.39h0A2.46,2.46,0,0,1,21.75,0Z"/>
+        <rect class="pdf-icon-cls-2" y="1.67" width="13.07" height="5.47"/>
+        <polygon class="pdf-icon-cls-3" points="1.59 8.28 0 7.14 1.59 7.14 1.59 8.28"/>
+        <path class="pdf-icon-cls-1"
+              d="M3.21,5V6H2.65V2.69H3.86A1,1,0,0,1,5,3.82,1,1,0,0,1,3.86,5Zm.64-.55c.38,0,.56-.24.56-.65s-.18-.58-.56-.58H3.21V4.47Z"/>
+        <path class="pdf-icon-cls-1"
+              d="M5.52,6V2.69H6.65C7.73,2.69,8,3.25,8,4.3S7.76,6,6.65,6ZM6.65,3.23H6.08V5.48h.57c.66,0,.75-.49.75-1.18S7.31,3.23,6.65,3.23Z"/>
+        <path class="pdf-icon-cls-1" d="M8.56,2.69h2.08v.54H9.12V4.3h1.23v.54H9.12V6H8.56Z"/>
+        <path class="pdf-icon-cls-4" d="M10.15,19a4.66,4.66,0,1,1,4.65-4.66A4.66,4.66,0,0,1,10.15,19Z"/>
+        <path class="pdf-icon-cls-1"
+              d="M10.15,9.84a4.46,4.46,0,1,1-4.46,4.45,4.45,4.45,0,0,1,4.46-4.45m0-.4A4.86,4.86,0,1,0,15,14.29a4.86,4.86,0,0,0-4.85-4.85Z"/>
+        <rect class="pdf-icon-cls-1" x="8.97" y="11.52" width="2.36" height="2.88"/>
+        <polygon class="pdf-icon-cls-1" points="7.61 14.4 10.15 17.29 12.68 14.4 7.61 14.4"/>
+    </g>
+</svg>
