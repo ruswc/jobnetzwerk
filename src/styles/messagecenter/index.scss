@@ -1,9 +1,14 @@
 @import '../vars';
+@import 'attach';
 
 .form-control {
   padding-left: 2rem;
   border: 2px solid $fourthColor;
   border-radius: unset;
+}
+
+.input-with-icon {
+  padding-left: 2rem !important;
 }
 
 .search-icon {
@@ -12,6 +17,16 @@
   top: 0.8rem;
   left: 0.5rem;
   z-index: 4;
+}
+
+.arrowdart {
+  fill: $thirdColor;
+  width: 20px;
+}
+
+.back-to-list-text {
+  color: $thirdColor;
+  font-weight: 500;
 }
 
 .filter-arrow {
@@ -46,7 +61,7 @@
 }
 
 .message-item,
-.message-filter {
+.message-container {
   background-color: $color10;
   border: 2px solid $fourthColor;
 }
@@ -66,4 +81,8 @@
     color: $sixthColor;
     border-bottom: 0.2rem solid $sixthColor;
   }
+}
+
+.secondary-text {
+  color: $secondaryColor;
 }

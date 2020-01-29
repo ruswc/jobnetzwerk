@@ -12,7 +12,15 @@ function App() {
       <HashRouter basename={`${process.env.PUBLIC_URL}/`}>
         <Switch>
           <Route exact path="/" component={First} />
-          <Route path="/messagecenter" component={MessageCenter} />
+          <Route exact path="/messagecenter">
+            <MessageCenter list />
+          </Route>
+          <Route exact path="/messagecenter/read">
+            <MessageCenter read />
+          </Route>
+          <Route exact path="/messagecenter/answer">
+            <MessageCenter answer />
+          </Route>
           <Route path="/*" component={Error} />
         </Switch>
       </HashRouter>

@@ -4,7 +4,7 @@ import { ReactComponent as Magnifying } from 'img/vector/magnifying.svg'
 const SearchInput = () => (
   <form className="w-100">
     <div className="input-group position-relative">
-      <input type="text" className="form-control" />
+      <input type="text" className="form-control input-with-icon" />
       <Magnifying className="search-icon" />
     </div>
   </form>
