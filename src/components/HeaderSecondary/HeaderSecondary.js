@@ -15,7 +15,7 @@ const HeaderSocondary = () => (
         </ContainerMainLeftColumn>
         <ContainerMainMiddleColumn>
           <div className="secondary-header-text">
-            <h5 className="text-white">Herzlich Willcommen, Derya Bulut!</h5>
+            <h5 className="text-white">Herzlich Willkommen, Derya Bulut!</h5>
           </div>
         </ContainerMainMiddleColumn>
         <ContainerMainRightLastColumn>
