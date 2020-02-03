@@ -1,0 +1,2 @@
+export const INCREASE_EVENT = 'INCREASE_EVENT'
+export const DECREASE_EVENT = 'DECREASE_EVENT'
