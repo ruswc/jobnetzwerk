@@ -8,19 +8,9 @@ import Footer from '../components/Footer'
 import Chat from '../components/Chat/Chat'
 import UserInfo from '../components/MainContentHeader/UserInfo'
 import Main from '../components/Main'
-import Cont from '../redux/container'
-import HookContainer from '../redux/HookContainer'
-import DateContainer from '../redux/dates/DateContainer'
-import HookDateContainer from '../redux/dates/HookDateContainer'
-import NewEventContainer from '../redux/dates/NewEventContainer'
 
 const First = () => (
   <>
-    <Cont />
-    <DateContainer />
-    <HookContainer />
-    <HookDateContainer />
-    <NewEventContainer />
     <Header />
     <HeaderSocondary />
     <HrSeparator className="main-separator" />
