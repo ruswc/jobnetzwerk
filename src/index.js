@@ -18,8 +18,7 @@ export const { store, persistor } = createStore()
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>
-      {/* <HashRouter basename={`${process.env.PUBLIC_URL}/`}> */}
-      <HashRouter basename="https://ruswc.github.io/jobnetzwerk/#/">
+      <HashRouter basename={`${process.env.PUBLIC_URL}`}>
         <App />
       </HashRouter>
     </PersistGate>
