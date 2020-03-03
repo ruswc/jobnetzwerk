@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header/Header'
-import HeaderSocondary from '../components/HeaderSecondary/HeaderSecondary'
+import HeaderSecondary from '../containers/HeaderSecondary'
 import HrSeparator from '../components/Separator/HrSeparator'
 import MainContentHeader from '../components/MainContentHeader/MainContentHeader'
 import MainContent from '../components'
@@ -16,7 +16,7 @@ import MessageCenterComponent from '../components/MessageCenterComponent'
 const MessageCenter = ({ ...props }) => (
   <>
     <Header />
-    <HeaderSocondary />
+    <HeaderSecondary />
     <HrSeparator className="main-separator" />
     <MainContentHeader>
       <Inbox />

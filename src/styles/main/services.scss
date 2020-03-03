@@ -1,5 +1,5 @@
-@import "src/styles/vars";
-@import "src/styles/mixins";
+@import '../vars';
+@import '../mixins';
 
 .service-item {
   @include flex(column, center, center);

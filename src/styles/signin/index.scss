@@ -1,0 +1,15 @@
+@import '../vars';
+@import '../mixins';
+
+.signin-button {
+  background-color: $thirdColor !important;
+  border-color: $thirdColor !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+
+  &:hover {
+    background-color: $fifthColor !important;
+    border-color: $fifthColor !important;
+
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.18), 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+  }
+}

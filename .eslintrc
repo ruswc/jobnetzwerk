@@ -10,6 +10,9 @@
   "ignorePatterns": ["*test.js", "serviceWorker.js", "node_modules/"],
   "rules": {
     "semi": 0,
+    "import/no-cycle": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "react/jsx-props-no-spreading": ["off"],
     "react/jsx-filename-extension": [
       1,
       {

@@ -1,16 +1,16 @@
-@import "~bootstrap/scss/bootstrap.scss";
+@import '~bootstrap/scss/bootstrap.scss';
 
 html {
   font-size: 16px;
 }
 
-@media all and (max-width: map-get($grid-breakpoints, "md")){
+@media all and (max-width: map-get($grid-breakpoints, 'md')) {
   html {
     font-size: 12px;
   }
 }
 
-@media all and (max-width: map-get($grid-breakpoints, "sm")){
+@media all and (max-width: map-get($grid-breakpoints, 'sm')) {
   html {
     font-size: 10px;
   }
