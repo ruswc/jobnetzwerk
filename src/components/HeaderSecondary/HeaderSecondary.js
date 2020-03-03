@@ -1,12 +1,13 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import userlogo from 'img/vector/userlogo.svg'
-import UserLogo from './UserLogo'
+import UserLogo from '../../containers/UserLogo'
 import UserMenu from './UserMenu'
 import ContainerMainLeftColumn from '../Containers/ContainerMainLeftColumn'
 import ContainerMainMiddleColumn from '../Containers/ContainerMainMiddleColumn'
 import ContainerMainRightLastColumn from '../Containers/ContainerMainRightLastColumn'
 
-const HeaderSocondary = () => (
+const HeaderSecondary = ({ isAuthenticated, userFirstName }) => (
   <div className="nav navbar-secondary">
     <div className="container-fluid">
       <div className="row">
@@ -15,7 +16,10 @@ const HeaderSocondary = () => (
         </ContainerMainLeftColumn>
         <ContainerMainMiddleColumn>
           <div className="secondary-header-text">
-            <h5 className="text-white">Herzlich Willkommen, Derya Bulut!</h5>
+            <h5 className="text-white">
+              Herzlich Willcommen,
+              {isAuthenticated && userFirstName && <> {userFirstName}</>}
+            </h5>
           </div>
         </ContainerMainMiddleColumn>
         <ContainerMainRightLastColumn>
@@ -26,4 +30,14 @@ const HeaderSocondary = () => (
   </div>
 )
 
-export default HeaderSocondary
+HeaderSecondary.defaultProps = {
+  isAuthenticated: false,
+  userFirstName: ''
+}
+
+HeaderSecondary.propTypes = {
+  isAuthenticated: PropTypes.bool,
+  userFirstName: PropTypes.string
+}
+
+export default HeaderSecondary

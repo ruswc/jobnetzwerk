@@ -1,5 +1,5 @@
-@import "src/styles/vars";
-@import "../mixins";
+@import '../vars';
+@import '../mixins';
 
 .chat-container {
   background-color: $chatContainerBackgroundColor;
@@ -19,6 +19,6 @@
   }
 
   & .chat-open-arrow {
-  width: 20px;
-}
+    width: 20px;
+  }
 }

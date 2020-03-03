@@ -12,6 +12,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 // import Main from './Main'
+import { Link } from 'react-router-dom'
 import LeftSideBlock from './LeftSide/LeftSideBlock'
 import ContainerMainLeftColumn from './Containers/ContainerMainLeftColumn'
 import ContainerMainRightColumn from './Containers/ContainerMainRightColumn'
@@ -26,8 +27,12 @@ const MainContent = ({ className, children }) => {
       <div className="row">
         <ContainerMainLeftColumn className="px-xl-4 d-flex justify-content-center">
           <div className="left-side-container py-4 h-100 w-100">
-            <LeftSideBlock img={house} text="Startseite" />
-            <LeftSideBlock img={news} text="Nachrichten" />
+            <Link to="/">
+              <LeftSideBlock img={house} text="Startseite" />
+            </Link>
+            <Link to="/messagecenter">
+              <LeftSideBlock img={news} text="Nachrichten" />
+            </Link>
             <LeftSideBlock img={jobagent} text="Jobagent" />
             <LeftSideBlock img={notebook} text="Notizbuch" />
             <LeftSideBlock img={date} text="Termine" />
