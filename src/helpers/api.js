@@ -5,7 +5,6 @@ import { store } from '../index'
 import { signOut } from '../actions/auth'
 
 const client = axios.create({
-  baseURL: process.env.REACT_APP_API_ROOT,
   proxy: {
     host: 'https://api.job-server.net/v1'
   },
@@ -17,6 +16,7 @@ const client = axios.create({
 client.interceptors.request.use(
   config => {
     const tempConfig = { ...config }
+    console.log(tempConfig)
     const token = storage.getItem(AUTH_TOKEN_KEY)
 
     if (token) {
