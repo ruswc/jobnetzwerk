@@ -5,6 +5,7 @@ import { store } from '../index'
 import { signOut } from '../actions/auth'
 
 const client = axios.create({
+  baseURL: process.env.REACT_APP_API_ROOT,
   proxy: {
     host: 'https://api.job-server.net/v1'
   },
