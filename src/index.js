@@ -18,7 +18,7 @@ export const { store, persistor } = createStore()
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>
-      <HashRouter basename="/jobnetzwerk/#">
+      <HashRouter basename="/">
         <App />
       </HashRouter>
     </PersistGate>
