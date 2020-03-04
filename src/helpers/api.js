@@ -16,7 +16,6 @@ const client = axios.create({
 client.interceptors.request.use(
   config => {
     const tempConfig = { ...config }
-    console.log(tempConfig)
     const token = storage.getItem(AUTH_TOKEN_KEY)
 
     if (token) {
@@ -31,7 +30,10 @@ client.interceptors.request.use(
 )
 
 client.interceptors.response.use(
-  response => response,
+  response => {
+    console.log(response)
+    return response
+  },
   error => {
     if (error.response.status === 401) {
       store.dispatch(signOut())
