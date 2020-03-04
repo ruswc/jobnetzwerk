@@ -31,7 +31,6 @@ client.interceptors.request.use(
 
 client.interceptors.response.use(
   response => {
-    console.log(response)
     return response
   },
   error => {
